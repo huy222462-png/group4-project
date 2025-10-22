@@ -1,0 +1,5 @@
+ Phân công:
+Nguyễn Võ Khánh Huy: Backend
+Lâm Hiếu Huy: Frontend
+Đặng Hoàng Phúc: Database
+ 

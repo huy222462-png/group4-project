@@ -2,10 +2,16 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> origin/HieuHuy_Frontend
   },
   "keywords": [],
   "author": "",
@@ -13,7 +19,10 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+<<<<<<< HEAD
     "mongoose": "^8.19.2",
+=======
+>>>>>>> origin/HieuHuy_Frontend
     "nodemon": "^3.1.10"
   }
 }

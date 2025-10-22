@@ -1,4 +1,5 @@
 const express = require('express');
+<<<<<<< HEAD
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const User = require('./models/User');
@@ -38,3 +39,17 @@ app.get('/users', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+=======
+const app = express();
+
+// Middleware để đọc JSON
+app.use(express.json());
+
+// Import routes
+const userRoutes = require('./routes/user');
+app.use('/', userRoutes);
+
+// Khởi động server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
+>>>>>>> origin/HieuHuy_Frontend

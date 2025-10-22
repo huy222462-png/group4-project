@@ -1,5 +1,1 @@
-## Thành viên nhóm
-Nguyễn Võ Khánh Huy
-Lâm Hiêu Huy
-Đặng Hoàng Phúc
-
+https://github.com/huy222462-png/group4-project.git

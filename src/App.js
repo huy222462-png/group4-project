@@ -8,7 +8,8 @@ function App() {
       <p>Kết nối MongoDB, xử lý đăng ký, đăng nhập.</p>
       <input type="email" placeholder="Email..." />
       <button style={{ margin: '10px', padding: '8px 16px' }}>Đăng ký</button>
-      <ul>
+      <button style={{ margin: '10px', padding: '8px 16px' }}>Đăng ký</button>
+            <p style={{ fontWeight: 'bold', color: 'red' }}><strong>MỚI:</strong> Cập nhật API backend ngày 22/10</p>
         <li>POST /api/users</li>
         <li>GET /api/users</li>
       </ul>
